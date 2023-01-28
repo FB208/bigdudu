@@ -32,13 +32,13 @@ html {
   transition: all 0.5s ease;
 }
 #wrapper.toggled {
-  padding-left: 220px;
+  padding-left: 320px;
 }
 #wrapper.toggled #sidebar-wrapper {
   width: 320px;
 }
 #wrapper.toggled #page-content-wrapper {
-  margin-right: -220px;
+  margin-right: -320px;
   position: absolute;
 }
 #sidebar-wrapper {
@@ -47,8 +47,8 @@ html {
   -webkit-transition: all 0.5s ease;
   background: #1a1a1a;
   height: 100%;
-  left: 220px;
-  margin-left: -220px;
+  left: 320px;
+  margin-left: -320px;
   overflow-x: hidden;
   overflow-y: auto;
   transition: all 0.5s ease;
